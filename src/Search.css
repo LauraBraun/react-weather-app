@@ -1,0 +1,69 @@
+.Search {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: monospace;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+footer i {
+  font-size: 30px;
+  display: block;
+  margin-left: 0;
+}
+
+.container {
+  padding: 30px;
+  border: 2px solid aliceblue;
+  border-radius: 30px;
+  width: 50%;
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+#currentConditions {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#weatherDescription:first-letter {
+  text-transform: capitalize;
+}
+.currentTemp {
+  font-size: 60px;
+  margin: 10px 30px;
+  line-height: 1;
+}
+
+.card {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  margin-right: 20px;
+  text-align: center;
+}
+
+.bylau {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#degreeConversion {
+  font-size: 20px;
+  background-color: #3e4c76;
+  color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  left: -30px;
+}
+
+#degreeConversion:hover {
+  color: #3e4c76;
+  background-color: aliceblue;
+}
